@@ -5,3 +5,34 @@
     background-color: #e2e8f0;
     display: flex;
 }
+
+.container-dashboard{
+    outline: none;
+    background-color: #f8fafc;
+}
+
+.container-dashboard > div:last-child{
+    flex: 1;
+    min-width: 0;
+    padding: 24px;
+    overflow: auto;
+}
+
+.container-dashboard > div:last-child > div{
+    max-width: 1120px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+    padding: 24px;
+    min-height: 100%;
+}
+
+.container-dashboard > div:last-child > div h2{
+    color: #0f172a;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+}

@@ -22,3 +22,112 @@
         flex-direction: column;
     }
 }
+
+.container-sidebar{
+    width: 280px;
+    height: 100vh;
+    padding: 16px 12px;
+    gap: 16px;
+    align-items: stretch;
+    justify-content: flex-start;
+    background: #ffffff;
+    border-right: 1px solid #e2e8f0;
+}
+
+.container-sidebar > div{
+    height: auto;
+    padding: 14px 14px;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+.container-sidebar > div h2{
+    width: 100%;
+    color: #0f172a;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.container-sidebar > div p{
+    width: 100%;
+    color: #64748b;
+    font-size: 12px;
+}
+
+.container-sidebar nav{
+    height: auto;
+    width: 100%;
+    gap: 6px;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.container-sidebar nav a{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 12px;
+    color: #334155;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 160ms ease, color 160ms ease;
+}
+
+.container-sidebar nav a:hover{
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+.container-sidebar button{
+    width: 100%;
+    margin-top: auto;
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    border: 0;
+    transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.container-sidebar button:hover{
+    background: #1d4ed8;
+}
+
+.container-sidebar button:active{
+    transform: translateY(1px);
+}
+
+@media (prefers-color-scheme: dark){
+    .container-sidebar{
+        background: #0f172a;
+        border-right-color: #1e293b;
+    }
+
+    .container-sidebar > div{
+        background: #0b1220;
+        border-color: #1e293b;
+    }
+
+    .container-sidebar > div h2{
+        color: #f1f5f9;
+    }
+
+    .container-sidebar > div p{
+        color: #94a3b8;
+    }
+
+    .container-sidebar nav a{
+        color: #e2e8f0;
+    }
+
+    .container-sidebar nav a:hover{
+        background: rgba(148, 163, 184, 0.12);
+        color: #ffffff;
+    }
+}
