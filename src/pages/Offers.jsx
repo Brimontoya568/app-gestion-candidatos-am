@@ -16,7 +16,7 @@ function Offers() {
 
       <div className="rounded-xl border border-slate-200 bg-white shadow-sm overflow-hidden">
         <div className="w-full overflow-x-auto">
-          <table className="min-w-[980px] w-full table-auto">
+          <table className="min-w-245 w-full table-auto">
             <thead className="bg-slate-50">
               <tr className="text-left">
                 <th className="px-4 py-3 text-xs font-semibold text-slate-600">Oferta</th>
